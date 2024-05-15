@@ -1,0 +1,2 @@
+linkedin = document.querySelector('#linkedin');
+
