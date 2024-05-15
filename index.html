@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="dp">
+                <img src="./mypic.jpg" alt="my image"> 
+            </div>
+            <div class="left">Aniket's Portfolio</div>
+            
+            <div class="right">
+                <ul>
+                     <li> <a href="#"> Home </a></li>
+                     <li><a href="#"> About </a></li>
+                     <li><a href="#"> Services </a></li>
+                     <li><a href="#"> Projects </a></li>
+                     <li><a href="#"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="firstSection">
+
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Aniket</span>
+                <div>I am a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                
+                <div class="buttons">
+                    <a href="./resume.pdf" target="_blank"><button class="btn glow-on-hover" id="resume" >Download Resume</button> </a>
+                    <a href="https://www.linkedin.com/in/aniket-kumar-prasad-962a501b0/" target="_blank"> <button class="btn glow-on-hover" id="linkedin">Visit LinkedIn</button> </a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="./bg1.png" alt="bg image" width="400">
+            </div>
+        
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="./logo/html.jpg" alt="dev image">
+                    <div class="vertical-title">
+                        HTML Developer (2010 - 2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos maiores aut tenetur reprehenderit. Similique quisquam earum, recusandae est eligendi quasi ea vitae.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./logo/youtube.jpg" alt="dev image">
+                    <div class="vertical-title">
+                        Node.js Developer (2012 - 2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos maiores aut tenetur reprehenderit. Similique quisquam earum, recusandae est eligendi quasi ea vitae.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./logo/x.jpg" alt="dev image">
+                    <div class="vertical-title">
+                        HTML Developer (2010 - 2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos maiores aut tenetur reprehenderit. Similique quisquam earum, recusandae est eligendi quasi ea vitae.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./logo/insta.jpg" alt="dev image">
+                    <div class="vertical-title">
+                        HTML Developer (2010 - 2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos maiores aut tenetur reprehenderit. Similique quisquam earum, recusandae est eligendi quasi ea vitae.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="./facebook.png" alt="dev image">
+                    <div class="vertical-title">
+                        HTML Developer (2010 - 2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos maiores aut tenetur reprehenderit. Similique quisquam earum, recusandae est eligendi quasi ea vitae.
+                    </div>
+                </div>
+
+            
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aniket's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="footer-rights">
+            Copyright &copy; aniketsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Network Engineer', ],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
